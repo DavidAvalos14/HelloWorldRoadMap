@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelloWorld RoadMap Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Bricolage+Grotesque:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape shape-a"></div>
+    <div class="bg-shape shape-b"></div>
+
+    <header class="hero">
+      <p class="eyebrow">Seguimiento de estudio Hello World</p>
+      <h1>HelloWorld RoadMap Sessions</h1>
+    </header>
+
+    <main class="layout">
+      <section class="panel panel-form">
+        <h2>Modo compartido JSON</h2>
+        <p>
+          Esta version carga los datos desde <strong>sessions.json</strong>.
+          Todos veran lo mismo en GitHub Pages mientras ese archivo sea el mismo.
+        </p>
+        <p>
+          Para actualizar fechas o expositores, editen <strong>sessions.json</strong>
+          y suban commit.
+        </p>
+        <button id="reload-json" type="button">Recargar datos</button>
+        <p id="json-status" class="json-status"></p>
+      </section>
+
+      <section class="panel panel-stats">
+        <h2>Resumen</h2>
+        <div class="stats-grid" id="stats"></div>
+        <h3>Carga por expositor</h3>
+        <div id="presenter-load" class="presenter-load"></div>
+      </section>
+
+      <section class="panel panel-table">
+        <div class="panel-head">
+          <h2>Calendario de temas</h2>
+          <div class="filters">
+            <input id="search" type="search" placeholder="Buscar tema..." />
+            <select id="filter-presenter">
+              <option value="Todos">Todos los expositores</option>
+            </select>
+            <select id="filter-status">
+              <option value="Todos">Todos los estados</option>
+              <option value="Pendiente">Pendiente</option>
+              <option value="Programado">Programado</option>
+              <option value="Completado">Completado</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Tema</th>
+                <th>Expositor</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th>Nota</th>
+              </tr>
+            </thead>
+            <tbody id="session-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel panel-timeline">
+        <h2>Próximas sesiones</h2>
+        <div id="timeline"></div>
+      </section>
+    </main>
+
+    <template id="session-row-template">
+      <tr>
+        <td class="topic-cell"></td>
+        <td class="presenter-cell"></td>
+        <td class="date-cell"></td>
+        <td class="status-cell"></td>
+        <td class="notes-cell"></td>
+      </tr>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

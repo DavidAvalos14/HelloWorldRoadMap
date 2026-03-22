@@ -1,0 +1,128 @@
+[
+  {
+    "topic": "Arrays & Hashing",
+    "presenter": "Brian",
+    "date": "2026-03-27",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Two Pointers",
+    "presenter": "David",
+    "date": "2026-03-30",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Stack",
+    "presenter": "Nano",
+    "date": "2026-04-06",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Binary Search",
+    "presenter": "Nano",
+    "date": "2026-04-06",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Sliding Window",
+    "presenter": "Isaac",
+    "date": "2026-04-10",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Linked List",
+    "presenter": "Alfredo",
+    "date": "2026-04-17",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Trees",
+    "presenter": "Sergio",
+    "date": "2026-04-24",
+    "status": "Programado",
+    "notes": "Asignado desde pizarron"
+  },
+  {
+    "topic": "Tries",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Heap / Priority Queue",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Backtracking",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Intervals",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Greedy",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Graphs",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Advanced Graphs",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "1-D DP",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "2-D DP",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Bit Manipulation",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  },
+  {
+    "topic": "Math & Geometry",
+    "presenter": "Por asignar",
+    "date": "",
+    "status": "Pendiente",
+    "notes": ""
+  }
+]
