@@ -321,8 +321,14 @@ th {
 }
 
 @media (max-width: 860px) {
+  .hero {
+    padding: 1.6rem 0.9rem 0.4rem;
+  }
+
   .layout {
+    padding: 0.75rem;
     grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 
   .panel-form,
@@ -340,5 +346,115 @@ th {
   .filters input,
   .filters select {
     min-width: 100%;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  }
+
+  .presenter-row {
+    grid-template-columns: 100px 1fr 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .panel {
+    padding: 0.85rem;
+  }
+
+  h2 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.65rem;
+    font-size: 1.35rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .presenter-row {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "name count"
+      "bar bar";
+    gap: 0.35rem 0.55rem;
+  }
+
+  .presenter-row > span {
+    grid-area: name;
+  }
+
+  .presenter-row > .bar {
+    grid-area: bar;
+  }
+
+  .presenter-row > strong {
+    grid-area: count;
+    justify-self: end;
+  }
+
+  .table-wrap {
+    overflow: visible;
+  }
+
+  table {
+    min-width: 0;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody,
+  tr,
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 0.75rem;
+    border: 1px solid #2b3550;
+    border-radius: 12px;
+    background: #10182b;
+    overflow: hidden;
+  }
+
+  td {
+    border-bottom: 1px solid #29334f;
+    padding: 0.6rem 0.7rem;
+  }
+
+  td:last-child {
+    border-bottom: none;
+  }
+
+  td::before {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 0.76rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  td:nth-child(1)::before {
+    content: "Tema";
+  }
+
+  td:nth-child(2)::before {
+    content: "Expositor";
+  }
+
+  td:nth-child(3)::before {
+    content: "Fecha";
+  }
+
+  td:nth-child(4)::before {
+    content: "Estado";
+  }
+
+  td:nth-child(5)::before {
+    content: "Nota";
   }
 }
