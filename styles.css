@@ -355,43 +355,6 @@ th {
   .presenter-row {
     grid-template-columns: 100px 1fr 30px;
   }
-}
-
-@media (max-width: 640px) {
-  .panel {
-    padding: 0.85rem;
-  }
-
-  h2 {
-    margin-top: 0.1rem;
-    margin-bottom: 0.65rem;
-    font-size: 1.35rem;
-  }
-
-  .stats-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .presenter-row {
-    grid-template-columns: 1fr auto;
-    grid-template-areas:
-      "name count"
-      "bar bar";
-    gap: 0.35rem 0.55rem;
-  }
-
-  .presenter-row > span {
-    grid-area: name;
-  }
-
-  .presenter-row > .bar {
-    grid-area: bar;
-  }
-
-  .presenter-row > strong {
-    grid-area: count;
-    justify-self: end;
-  }
 
   .table-wrap {
     overflow: visible;
@@ -456,5 +419,42 @@ th {
 
   td:nth-child(5)::before {
     content: "Nota";
+  }
+}
+
+@media (max-width: 640px) {
+  .panel {
+    padding: 0.85rem;
+  }
+
+  h2 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.65rem;
+    font-size: 1.35rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .presenter-row {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "name count"
+      "bar bar";
+    gap: 0.35rem 0.55rem;
+  }
+
+  .presenter-row > span {
+    grid-area: name;
+  }
+
+  .presenter-row > .bar {
+    grid-area: bar;
+  }
+
+  .presenter-row > strong {
+    grid-area: count;
+    justify-self: end;
   }
 }
