@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Bricolage+Grotesque:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/jpeg" href="HW.jpeg" />
+    <link rel="shortcut icon" type="image/jpeg" href="HW.jpeg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -22,27 +24,6 @@
     </header>
 
     <main class="layout">
-      <section class="panel panel-form">
-        <h2>Modo compartido JSON</h2>
-        <p>
-          Esta version carga los datos desde <strong>sessions.json</strong>.
-          Todos veran lo mismo en GitHub Pages mientras ese archivo sea el mismo.
-        </p>
-        <p>
-          Para actualizar fechas o expositores, editen <strong>sessions.json</strong>
-          y suban commit.
-        </p>
-        <button id="reload-json" type="button">Recargar datos</button>
-        <p id="json-status" class="json-status"></p>
-      </section>
-
-      <section class="panel panel-stats">
-        <h2>Resumen</h2>
-        <div class="stats-grid" id="stats"></div>
-        <h3>Carga por expositor</h3>
-        <div id="presenter-load" class="presenter-load"></div>
-      </section>
-
       <section class="panel panel-table">
         <div class="panel-head">
           <h2>Calendario de temas</h2>
@@ -74,6 +55,27 @@
             <tbody id="session-body"></tbody>
           </table>
         </div>
+      </section>
+
+      <section class="panel panel-form">
+        <h2>Modo compartido JSON</h2>
+        <p>
+          Esta version carga los datos desde <strong>sessions.json</strong>.
+          Todos veran lo mismo en GitHub Pages mientras ese archivo sea el mismo.
+        </p>
+        <p>
+          Para actualizar fechas o expositores, editen <strong>sessions.json</strong>
+          y suban commit.
+        </p>
+        <button id="reload-json" type="button">Recargar datos</button>
+        <p id="json-status" class="json-status"></p>
+      </section>
+
+      <section class="panel panel-stats">
+        <h2>Resumen</h2>
+        <div class="stats-grid" id="stats"></div>
+        <h3>Carga por expositor</h3>
+        <div id="presenter-load" class="presenter-load"></div>
       </section>
 
       <section class="panel panel-timeline">
