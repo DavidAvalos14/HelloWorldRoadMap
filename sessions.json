@@ -1,6 +1,13 @@
 [
   {
-    "topic": "Arrays & Hashing",
+    "topic": "Arrays",
+    "presenter": "Sergio",
+    "date": "2026-03-13",
+    "status": "Completado",
+    "notes": "Asignado desde ruleta"
+  },
+  {
+    "topic": "Hashing",
     "presenter": "Brian",
     "date": "2026-03-27",
     "status": "Programado",

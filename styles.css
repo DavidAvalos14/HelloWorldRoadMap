@@ -320,7 +320,7 @@ th {
   font-size: 0.9rem;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1024px), (hover: none) and (pointer: coarse) {
   .hero {
     padding: 1.6rem 0.9rem 0.4rem;
   }
@@ -365,13 +365,13 @@ th {
   }
 
   thead {
-    display: none;
+    display: none !important;
   }
 
   tbody,
   tr,
   td {
-    display: block;
+    display: block !important;
     width: 100%;
   }
 
