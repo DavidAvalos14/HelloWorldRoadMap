@@ -48,7 +48,7 @@ Cada elemento debe tener esta forma:
 ```json
 {
 	"topic": "Trees",
-	"presenter": "Sergio",
+	"presenter": "Samce",
 	"date": "2026-04-24",
 	"status": "Programado",
 	"notes": "Repaso DFS/BFS"

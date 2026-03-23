@@ -1,6 +1,6 @@
 const DATA_URL = "sessions.json";
 
-const teamPresenters = ["David", "Alfredo", "Isaac", "Nano", "Sergio", "Brian"];
+const teamPresenters = ["David", "Alfredo", "Isaac", "Nano", "Samce", "Brian"];
 
 const fallbackSessions = [
   { topic: "Arrays & Hashing", presenter: "Brian", date: "2026-03-27", status: "Programado", notes: "Asignado desde pizarron" },
@@ -9,7 +9,7 @@ const fallbackSessions = [
   { topic: "Binary Search", presenter: "Nano", date: "2026-04-06", status: "Programado", notes: "Asignado desde pizarron" },
   { topic: "Sliding Window", presenter: "Isaac", date: "2026-04-10", status: "Programado", notes: "Asignado desde pizarron" },
   { topic: "Linked List", presenter: "Alfredo", date: "2026-04-17", status: "Programado", notes: "Asignado desde pizarron" },
-  { topic: "Trees", presenter: "Sergio", date: "2026-04-24", status: "Programado", notes: "Asignado desde pizarron" }
+  { topic: "Trees", presenter: "Samce", date: "2026-04-24", status: "Programado", notes: "Asignado desde pizarron" }
 ];
 
 const searchInput = document.getElementById("search");
