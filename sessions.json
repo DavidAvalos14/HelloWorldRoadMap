@@ -59,77 +59,77 @@
     "topic": "Tries",
     "presenter": "David",
     "date": "2026-05-14",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Heap / Priority Queue",
     "presenter": "Alfredo",
     "date": "2026-05-22",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Backtracking",
     "presenter": "Samce",
     "date": "2026-05-29",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Intervals",
     "presenter": "Nano",
     "date": "2026-06-19",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Greedy",
     "presenter": "Samce",
     "date": "2026-06-26",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Graphs",
     "presenter": "Nano",
     "date": "2026-06-05",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Advanced Graphs",
     "presenter": "David",
     "date": "2026-07-03",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "1-D DP",
     "presenter": "Brian",
     "date": "2026-06-12",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "2-D DP",
     "presenter": "Brian",
     "date": "2026-07-10",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Bit Manipulation",
     "presenter": "Alfredo",
     "date": "2026-07-17",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   },
   {
     "topic": "Math & Geometry",
     "presenter": "David",
     "date": "2026-07-24",
-    "status": "Pendiente",
+    "status": "Programado",
     "notes": ""
   }
 ]
